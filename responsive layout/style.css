@@ -199,6 +199,25 @@ footer button {
         font-size: 1.5rem;
     }
     
-    
-    
+/* media queries 500px styles */
+@media (max-width: 500px){
+    .top {
+        flex-direction: column-reverse;
+    }
+    .right {
+        width: 90%;
+}
+.right p {
+    font-size: 1.8rem;
+}
+.rowone {
+    max-width: 100%;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 0 1%;
+    text-align: center;
+}
+.rowtwo {
+    flex-direction: column;
+} 
 }
