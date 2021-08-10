@@ -206,18 +206,19 @@ footer button {
     }
     .right {
         width: 90%;
-}
-.right p {
+    }
+    .right p {
     font-size: 1.8rem;
 }
-.rowone {
+    .rowone {
     max-width: 100%;
     justify-content: space-evenly;
     flex-direction: column;
     padding: 0 1%;
     text-align: center;
 }
-.rowtwo {
+    .rowtwo {
     flex-direction: column;
 } 
+}
 }
